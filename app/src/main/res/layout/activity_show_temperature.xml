@@ -10,7 +10,13 @@
         android:id="@+id/title_image"
         android:layout_width="match_parent"
 
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp" />
+
+
 
     <TextView
         android:id="@+id/show_temp_a2"
@@ -22,6 +28,7 @@
         android:textColor="@android:color/background_light"
         android:textSize="80sp" />
 
+
     <TextView
         android:id="@+id/temp_title"
         android:layout_width="wrap_content"
@@ -31,6 +38,16 @@
         android:layout_marginBottom="169dp"
         android:textColor="@android:color/background_light"
         android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/cityNameId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp" />
 
 
 </RelativeLayout>
